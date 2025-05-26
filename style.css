@@ -87,8 +87,12 @@ span.wave {
   right: 0;
 }
 .boyimage {
-  height: 400px;
+  height: auto;
+  max-height: 400px;
+  width: auto;
+  max-width: 100%;
 }
+
 
 @media only screen and (max-width: 1183px) {
   .first-image {
